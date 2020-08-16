@@ -1,0 +1,22 @@
+<!--pages/main/main.wxml-->
+<view class="main">
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}"
+ easing-function="easeOutCubic" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 分隔栏 -->
+<view></view>
+<van-card
+  desc="描述信息"
+  title="商品标题"
+  centered="{{true}}"
+  currency=""
+  thumb="cloud://cinarsky-h2jk2.6369-cinarsky-h2jk2-1300675200/纵一航/Thu Jul 30 2020-1596089303185.png"
+/>
+
+</view>

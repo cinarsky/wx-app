@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/company/company",
+    "pages/bu/bu",
+    "pages/team/team"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "维支消灵通",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#5697F2",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/main/main",
+      "text": "维支消灵通",
+      "iconPath": "/png/zhuye.png",
+      "selectedIconPath":  "/png/zhuye_1.png"
+    }, {
+      "pagePath": "pages/company/company",
+      "text": "公司政策",
+      "iconPath": "/png/008duihuakuang-1.png",
+      "selectedIconPath": "/png/008duihuakuang-1_1.png"
+    }, {
+      "pagePath": "pages/bu/bu",
+      "text": "部门通知",
+      "iconPath": "/png/tongzhi.png",
+      "selectedIconPath":  "/png/tongzhi_1.png"
+    }, {
+      "pagePath": "pages/team/team",
+      "text": "制作团队",
+      "iconPath": "/png/tuandui.png",
+      "selectedIconPath":  "/png/tuandui_1.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
